@@ -2,6 +2,7 @@
 from django.urls import path, include
 from . import views
 from .import HodViews, StaffViews, StudentViews
+from django.conf.urls import url,include
 
 
 urlpatterns = [
